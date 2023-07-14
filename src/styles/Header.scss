@@ -1,0 +1,14 @@
+@import "./partials/color";
+@import "./partials/font";
+
+.header-container {
+    background-color: $darkBlue;
+    .header-text {
+        color: $white;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
