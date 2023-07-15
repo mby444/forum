@@ -1,0 +1,7 @@
+@mixin signBtn($width, $height, $bg-color) {
+    box-sizing: border-box;
+    width: 80px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}

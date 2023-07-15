@@ -1,11 +1,10 @@
-@import "./partials/color";
-@import "./partials/font";
+@use "./partials" as *;
 
 .header-container {
-    background-color: $darkBlue;
-    .header-text {
+    background-color: $dark-blue;
+    & .header-text {
         color: $white;
-        font-family: "Poppins", sans-serif;
+        font-family: $poppins;
         font-size: 12px;
         font-style: normal;
         font-weight: 700;
