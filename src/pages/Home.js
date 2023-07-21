@@ -1,13 +1,11 @@
-import Header from "../components/Header";
-import Search from "../components/Search";
-import Thread from "../components/Thread";
+import Header from "./home/Header";
+import Body from "./home/Body";
 
 export default function Home() {
   return (
     <>
         <Header />
-        <Search />
-        <Thread />
+        <Body />
     </>
   );
 }

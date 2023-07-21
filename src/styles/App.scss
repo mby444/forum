@@ -1,4 +1,12 @@
+@use "./partials/font" as *;
+@use "./Navbar.scss";
+@use "./Search.scss";
+@use "./Thread.scss";
+@use "./pages";
+@use "./Footer.scss";
+
 * {
   margin: 0;
   padding: 0;
+  // font-family: $poppins;
 }

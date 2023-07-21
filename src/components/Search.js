@@ -1,7 +1,8 @@
-
-
 export default function Search() {
   return (
-    <div>Search</div>
+    <div className="search-input-container">
+      <input placeholder="Cari topik..." className="search-input" />
+      <div className="search-btn"></div>
+    </div>
   );
 }
