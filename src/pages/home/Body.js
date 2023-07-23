@@ -9,6 +9,9 @@ export default function Body() {
         </div>
         <div className="thread-container">
           <Thread />
+          <Thread />
+          <Thread />
+          <Thread />
         </div>
     </div>
   );
