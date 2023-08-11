@@ -19,17 +19,20 @@
 
 .body-container {
     background-color: $white;
-}
-
-.search-container {
-    display: flex;
-    justify-content: center;
-    padding: 15px 0;
-}
-
-.thread-container {
-    padding: 15px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    min-height: 100vh;
+    & .search-container {
+        display: flex;
+        justify-content: center;
+        padding: 60px 0;
+    }
+    
+    & .thread-container {
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: {
+            bottom: 20px;
+        }
+    }
 }
