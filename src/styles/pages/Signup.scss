@@ -57,6 +57,12 @@
                     height: 35px;
                     padding: 0 5px;
                 }
+
+                & .signup-input-error-label {
+                    font-size: 10px;
+                    color: $red-error;
+                    padding: 2.5px 0 0 0;
+                }
             }
 
             & .signup-btn-container {

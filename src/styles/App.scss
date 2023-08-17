@@ -1,4 +1,4 @@
-@use "./partials/font" as *;
+@use "./partials" as *;
 @use "./Navbar.scss";
 @use "./Search.scss";
 @use "./Thread.scss";
@@ -13,4 +13,9 @@
 
 body {
   font-family: $poppins;
+  background-color: $white;
+}
+
+.hidden {
+  display: none;
 }
